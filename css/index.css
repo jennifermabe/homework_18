@@ -76,8 +76,8 @@ body {
 .row {
     margin-bottom: 20px;
 }
-#DesertTortoiseProject {
-    max-width: 550px;
+.workPhoto {
+    width: 100%;
     box-shadow: 2px 2px 5px rgba(0,0,0,.4);
 }
 .jen-work-btn {
@@ -93,18 +93,6 @@ body {
     color: #ffffff;
     border: none;
     box-shadow: 1px 1px 3px rgba(0,0,0,.4);
-}
-#EnergyGovProject {
-    max-width: 550px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.4);
-}
-#TravelAppProject {
-    max-width: 550px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.4);
-}
-#PlantFriendProject {
-    max-width: 550px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.4);
 }
 .jen-jumbotron-2 {
     background-image: url(../images/TropicalLeaves.png);
@@ -204,4 +192,43 @@ footer {
 }
 .jen-footer p {
     font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    .workPhoto {
+        margin-bottom: 20px;
+        width: 100%;
+        box-shadow: 2px 2px 5px rgba(0,0,0,.4);
+    }
+    .jen-jumbo-content {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .jen-jumbotron-2 {
+        background-image: url(../images/TropicalLeaves.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .jen-jumbo-content-2 {
+        width: 90%;
+        background-color: #FAD2E4;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .jen-footer {
+        width: 70%;
+        border-left: 3px solid #ffffff;
+        padding: 20px;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        color: #095B5D;
+    }
 }
